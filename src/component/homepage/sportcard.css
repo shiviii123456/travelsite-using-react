@@ -1,0 +1,76 @@
+
+.sport-Container{
+    position: relative;
+    margin: 1.5rem;
+    cursor: pointer;
+}
+.sport-Container .inner{
+    height: 35rem;
+    width: 23rem;
+    overflow: hidden;
+}
+.sport-Container .inner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all .4s ease-in-out;
+    transition-delay:0s ;
+}
+.sport-Container:hover img{
+      transform: scale(1.5);
+}
+.sport-Container .price i{
+    margin-right:.5rem ;
+}
+.sport-Container .price{
+   position: absolute;
+   top:5px;
+   margin: 1rem;
+   padding: .5rem;
+   background-color: #fff;
+   border-radius: 20px;
+}
+.sport-des{
+    position: absolute;
+    top:330px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: all .4s ease-in-out;
+}
+.sport-Container:hover .sport-des{
+    top:300px;
+}
+.sport-des h2{
+     margin: 1rem;
+     text-transform: uppercase;
+}
+.sport-des div ul{
+    display: flex;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+.sport-des div ul li{
+    list-style: none;
+}
+.ratings{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-right: .5rem;
+}
+.sport-des div ul li .fa-star{
+    color: #E9C46A;
+}
+.sport-des div ul .star{
+    padding: 4px;
+}
+.people-rating{
+    position: absolute;
+    top:80px;
+    left:40px;
+}
+.sport-des h3{
+    font-size: 1.3rem;
+}

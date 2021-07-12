@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap');
+.blog-wrapper h1{
+    margin: 1.5rem;
+    font-family: 'Bona Nova', serif;
+    font-size: 3rem;
+    text-align: center;
+}
+.blog-wrapper h3{
+    font-family: 'Bona Nova', serif;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.blog-Container{
+    display: flex;
+    padding:0 12rem;
+}
+.left-Container{
+    width:50%;
+}
+.right-Container{
+    width:50%;
+}
+.news-right{
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+}
+.items-3{
+    position: relative;
+}
+.news-right .items-3 img{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+}
+.month{
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:50px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 5px;
+    z-index: 1;
+    padding: 10px;
+}
+.month h3{
+    font-size: 1.2rem;
+    margin: 0;
+}
+.items-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top:1rem ;
+}
+.items-4 h2{
+    font-size: 1.3rem;
+    font-family: 'Bona Nova', serif;
+    margin-bottom: 1rem;
+}
+.items-4 h3{
+    font-size: 1.2rem;
+    text-align: left;
+    color: #E9C46A;
+    transition: all 1s linear;
+    margin-bottom: 1rem;
+}
+.items-4 h3:hover{
+    color: #2485B0;
+}

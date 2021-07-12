@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap');
+
+.middle-cont{
+    width: 100%;
+}
+.middle-cont h1{
+    margin: 1.5rem;
+    font-family: 'Bona Nova', serif;
+    font-size: 3rem;
+    text-align: center;
+}

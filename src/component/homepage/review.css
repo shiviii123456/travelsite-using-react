@@ -1,0 +1,8 @@
+.review{
+    height: 90vh;
+    width: 100%;
+    background: url("https://besthqwallpapers.com/img/original/59835/ocean-top-view-coast-beach-waves.jpg") center center/cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap');
+.sport-Section{
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sport-wrapper h1{
+    margin: 1.5rem;
+    font-family: 'Bona Nova', serif;
+    font-size: 3rem;
+    text-align: center;
+}

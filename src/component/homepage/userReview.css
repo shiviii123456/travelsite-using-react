@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,800;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap');
+.user-review{
+    display: flex;
+    background-color: rgb(36, 133, 176, 0.8);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+.user-review .fa-quote-left{
+    margin: 3rem;
+    font-size: 3rem;
+    color:#E9C46A;
+}
+.user-review h1{
+    font-size: 3rem;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+.user-review p{
+    font-family: 'Bona Nova', serif;
+    font-size: 2rem;
+    margin: 1.5rem;
+    color: #fff;
+    text-align: center;
+}
+.review-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.review-img img{
+    border:5px solid #fff;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.review-img h2,h3{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bona Nova', serif;
+}
+.review-img h2{
+    margin-top: 2rem;
+    color: #fff;
+}
+.review-img h3{
+    color:#E9C46A;
+    margin-bottom: 2rem;
+}
+.move{
+    display: flex;
+    justify-content: center;
+}
+.move i{
+    font-size: 3rem;
+    text-align: center;
+    color:#E9C46A;
+    margin:0 2rem;
+    cursor: pointer;
+}
